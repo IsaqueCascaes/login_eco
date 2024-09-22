@@ -1,0 +1,82 @@
+/* Estilos para o popup */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container {
+    background-color: white;
+    padding: 20px;
+    width: 60%;
+    height: 70%;
+    position: relative;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.popup-save {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+/* Section Nome da Empresa e Nota */
+.empresa-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.empresa-info,
+.empresa-nota {
+    width: 48%;
+}
+
+.empresa-info h3, .empresa-nota h3, .descricao-section h3, .categoria-section h3 {
+    padding: 1rem 1rem 1rem 0;
+}
+
+.empresa-info input,
+.empresa-nota input, .categoria-section input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Section Descrição da Empresa */
+.descricao-section {
+    margin-top: 20px;
+}
+
+.textarea-descricao {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

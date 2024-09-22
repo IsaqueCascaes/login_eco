@@ -1,9 +1,9 @@
-function Botao(){
-    return(
-        <div>
-             <button type="submit">Entrar</button>
-        </div>
-    )
-}
+// function Botao(){
+//     return(
+//         <div>
+//              <button type="submit">Entrar</button>
+//         </div>
+//     )
+// }
 
-export default Botao;
+// export default Botao;
